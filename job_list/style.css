@@ -210,6 +210,13 @@ html{
     align-items: center;
     border-radius: 10px;
     background-color: blueviolet;
+    
+}
+
+.lamar:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    transition-delay: 0.1s;
 }
 
 .a-lamar{

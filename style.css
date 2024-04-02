@@ -212,6 +212,12 @@ html{
     background-color: blueviolet;
 }
 
+.lamar:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    transition-delay: 0.1s;
+}
+
 .a-lamar{
     font-size: 20px;
     text-decoration: none;
