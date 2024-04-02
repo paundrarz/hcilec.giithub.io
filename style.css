@@ -320,8 +320,9 @@ html{
 .h1-grid-kanan{
     position: relative;
     left: 13px;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    bottom: -20px;
+    margin-bottom: 35px;
 }
 
 .p-grid-kanan{
