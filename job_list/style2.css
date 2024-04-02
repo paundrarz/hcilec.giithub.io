@@ -39,6 +39,23 @@ html{
     text-decoration: underline;
 }
 
+.a-navbar-kanan{
+    text-decoration: none;
+    color: black;
+}
+
+.a-navbar-kanan:hover{
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 120px;
+    z-index: 1;
+}
+
 .li-navbar{
     list-style-type: none;
     font-size: 20px;

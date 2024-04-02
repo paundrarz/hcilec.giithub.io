@@ -35,6 +35,15 @@ html{
     align-items: center;
 }
 
+.a-navbar-kanan{
+    text-decoration: none;
+    color: black;
+}
+
+.a-navbar-kanan:hover{
+    text-decoration: underline;
+}
+
 .a-navbar{
     color: black;
     text-decoration: none;
@@ -59,9 +68,8 @@ html{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ffffff;
+    background-color: transparent;
     min-width: 120px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
 
