@@ -35,11 +35,20 @@ html{
     text-decoration: none;
 }
 
+.a-navbar:hover{
+    text-decoration: underline;
+}
+
 .li-navbar{
     list-style-type: none;
     font-size: 20px;
     padding: 20px;
     margin: 10px;
+}
+
+.li-navbar:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
 }
 
 .dropdown-content {
@@ -223,6 +232,10 @@ html{
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
+}
+
+.a-lamar:hover{
+    text-decoration: underline;
 }
 
 .new-post{
