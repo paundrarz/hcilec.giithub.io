@@ -277,3 +277,31 @@ body {
     position: relative;
     margin-right: 200px;
 }
+
+.news{
+    width: 100%;
+    -webkit-user-drag: none;
+}
+
+.gridutama{
+    position: relative;
+    left: 110px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+    width: 85vw;
+    background-color: #5464BD;
+}
+
+.banner-kiri{
+    color:#e6eafc;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:24px;
+    font-family:Arial;
+    line-height:29.79199981689453px;
+    border-style:hidden;
+    outline:none;
+    width:381px;
+}
