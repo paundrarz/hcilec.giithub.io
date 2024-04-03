@@ -289,19 +289,68 @@ body {
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 300px;
+    height: 400px;
     width: 85vw;
     background-color: #5464BD;
 }
 
-.banner-kiri{
+.h1-banner-kiri{
     color:#e6eafc;
     text-align:left;
     vertical-align:text-top;
-    font-size:24px;
+    font-size:34px;
     font-family:Arial;
     line-height:29.79199981689453px;
     border-style:hidden;
     outline:none;
-    width:381px;
+    width:700px;
+    margin-bottom: 30px;
 }
+
+.p-banner-kiri{
+    color:#e6eafc;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:16px;
+    font-family:Arial;
+    line-height:24.527999877929688px;
+    border-style:hidden;
+    outline:none;
+    width:804px;
+    margin-bottom: 15px;
+}
+
+.banner-kiri{
+    position: relative;
+    left: 10%;
+    top: 30%;
+}
+
+
+.banner-kanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-alat-wawancara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: #E4E8ED;
+    border-radius: 10px;
+}
+
+.a-alat{
+    text-decoration: none;
+    color: #2E3849;
+}
+
+.container-alat-wawancara:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
