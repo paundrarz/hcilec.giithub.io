@@ -354,3 +354,29 @@ body {
     transition: 0.3s ease;
 }
 
+.container-news{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.li-news{
+    list-style-type: none;
+}
+
+.a-news{
+    text-decoration: none;
+}
+
+.a-news:hover{
+    text-decoration: underline;
+}
+
+.h1-news{
+    font-size: 20px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
