@@ -363,10 +363,12 @@ body {
 
 .li-news{
     list-style-type: none;
+    margin: 20px;
 }
 
 .a-news{
     text-decoration: none;
+    color: #2E3849;
 }
 
 .a-news:hover{
